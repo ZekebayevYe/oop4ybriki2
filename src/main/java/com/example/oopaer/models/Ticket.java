@@ -27,9 +27,11 @@ public class Ticket {
     public void setName(String name) {
         this.name = name;
     }
+
+
+    @Override
+    public String ToString {
+        return id + ". " + "Name of ticket: " + name + " price of ticket: " + price;
+    }
 }
 
-@Override
-public String ToString {
-    return id + ". " + "Name of ticket: " + name + " price of ticket: " + price;
-}
