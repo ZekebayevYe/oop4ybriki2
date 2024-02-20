@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface UserServiceInterface {
     List<User> getAll();
-    User getById(int id);
+    List<User> getById(int id);
     User create(User user);
     List<User> getByLogin(String login);
 }

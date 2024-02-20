@@ -7,5 +7,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.*;
 
 public interface UserRepositoryInterface extends JpaRepository<User, Ticket> {
-    List<User> findBySurname(String surname);
+
+    List<User> findByLogin(String login);
+
+    List<User> findById(int id);
 }

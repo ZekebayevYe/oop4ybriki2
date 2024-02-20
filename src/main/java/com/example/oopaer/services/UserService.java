@@ -23,8 +23,8 @@ public class UserService implements UserServiceInterface {
     }
 
     @Override
-    public User getById(int id) {
-        return repo.findById(id).orElse(null);
+    public List<User> getById(int id) {
+        return repo.findById(id);
     }
 
     @Override

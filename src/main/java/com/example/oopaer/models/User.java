@@ -1,12 +1,11 @@
-package com.example.oopaer;
+package com.example.oopaer.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import jakarta.persistence.*;
+import lombok.*;
+
 @Setter
 @NoArgsConstructor
-public class User {
+
     @Data
     @Entity
     @Table(name = "users")
@@ -36,4 +35,4 @@ public class User {
 
 
     }
-}
+
