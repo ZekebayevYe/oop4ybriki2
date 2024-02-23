@@ -1,5 +1,6 @@
 package com.example.oopaer.models;
 
+import lombok.*;
 @NoArgsConstructor
 @Setter
 @Getter
