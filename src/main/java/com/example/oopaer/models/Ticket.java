@@ -1,7 +1,9 @@
 package com.example.oopaer.models;
 
-@Getter
+@NoArgsConstructor
 @Setter
+@Getter
+@ToString
 
 public class Ticket {
     private static int id_gen=1;
